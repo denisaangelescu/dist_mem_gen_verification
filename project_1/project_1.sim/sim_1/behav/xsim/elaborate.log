@@ -1,0 +1,12 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_15 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log -L uvm 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/denis/Desktop/vpc/bun/project_1/project_1.srcs/sim_1/new/dist_mem_gen_monitor.sv:64]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/denis/Desktop/vpc/bun/project_1/project_1.srcs/sim_1/new/dist_mem_gen_driver.sv:21]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/denis/Desktop/vpc/bun/project_1/project_1.srcs/sim_1/new/scoreboard.sv:26]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

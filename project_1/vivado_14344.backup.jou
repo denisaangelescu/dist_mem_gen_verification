@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Mar  6 14:53:50 2025
+# Process ID: 14344
+# Current directory: C:/Users/denis/Desktop/vpc/bun/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21332 C:\Users\denis\Desktop\vpc\bun\project_1\project_1.xpr
+# Log file: C:/Users/denis/Desktop/vpc/bun/project_1/vivado.log
+# Journal file: C:/Users/denis/Desktop/vpc/bun/project_1\vivado.jou
+# Running On        :Denisa
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:16
+# CPU Logical cores :22
+# Host memory       :33945 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36093 MB
+# Available Virtual :21955 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/denis/Desktop/vpc/bun/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/denis/Desktop/vpc/bun/project_1/testbench_behav.wcfg
+source testbench.tcl
+run all
+save_wave_config {C:/Users/denis/Desktop/vpc/bun/project_1/testbench_behav.wcfg}
+close_sim
