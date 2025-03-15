@@ -448,3 +448,7 @@
   CREATE_STREAM @385000 {NAME:readSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:970}
   CREATE_STREAM @705000 {NAME:resetSyncSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:1164}
   CREATE_STREAM @917000 {NAME:resetAsyncSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:1298}
+  CREATE_STREAM @0 {NAME:writeSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:606}
+  CREATE_STREAM @385000 {NAME:readSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:970}
+  CREATE_STREAM @705000 {NAME:resetSyncSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:1164}
+  CREATE_STREAM @917000 {NAME:resetAsyncSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:1298}
