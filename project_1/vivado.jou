@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Mar  6 22:52:21 2025
-# Process ID: 21180
-# Current directory: C:/Users/denis/Desktop/vpc/bun/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21880 C:\Users\denis\Desktop\vpc\bun\project_1\project_1.xpr
-# Log file: C:/Users/denis/Desktop/vpc/bun/project_1/vivado.log
-# Journal file: C:/Users/denis/Desktop/vpc/bun/project_1\vivado.jou
+# Start of session at: Sat Mar 15 06:29:54 2025
+# Process ID: 24900
+# Current directory: C:/Users/denis/Desktop/o_parte_din_proiecte_personale/vpc/bun/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15344 C:\Users\denis\Desktop\o_parte_din_proiecte_personale\vpc\bun\project_1\project_1.xpr
+# Log file: C:/Users/denis/Desktop/o_parte_din_proiecte_personale/vpc/bun/project_1/vivado.log
+# Journal file: C:/Users/denis/Desktop/o_parte_din_proiecte_personale/vpc/bun/project_1\vivado.jou
 # Running On        :Denisa
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26100
@@ -19,13 +19,8 @@
 # Host memory       :33945 MB
 # Swap memory       :2147 MB
 # Total Virtual     :36093 MB
-# Available Virtual :17668 MB
+# Available Virtual :19726 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/denis/Desktop/vpc/bun/project_1/project_1.xpr
+open_project C:/Users/denis/Desktop/o_parte_din_proiecte_personale/vpc/bun/project_1/project_1.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-open_wave_config C:/Users/denis/Desktop/vpc/bun/project_1/testbench_behav.wcfg
-source testbench.tcl
-run all
-close_sim
